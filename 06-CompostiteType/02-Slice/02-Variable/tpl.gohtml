@@ -1,0 +1,15 @@
+ <!DOCTYPE html>
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+<ul>
+{{range $index,$value := .}}
+<li>Value {{$value}} is Present at index {{$index}}</li>
+{{end}}
+</ul>
+</body>
+</html>

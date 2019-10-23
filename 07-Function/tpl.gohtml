@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+<ul>
+{{range .Per}}
+<li>My name is {{uc .Ename}} and my Salary after Increment is {{inp .Salary}} :(</li>
+{{end}}
+</ul>
+<ul>
+{{range .Con}}
+<li>My name is {{ uc .Ename}} and my Salary after Increment is {{ inc .Salary}} :)</li>
+{{end}}
+</ul>
+</body>
+</html>
